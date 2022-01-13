@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internships</title>
+    <link rel="stylesheet" href="css/intern.css">
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Internship</h1>
+    <div class="menubar">
+            <ul>
+                <li> <a href="legal.html">Home</a> </li>
+                <li> <a href="#">MockTest</a> 
+                <div class="submenu">
+                    <ul>
+                        <li> <a href="ipcs.html">IPC</a> </li>
+                        <li> <a href="hindumact.html">Hindu Marraige Act</a> </li>
+                        <li> <a href="hindusact.html">Hindu Succesion Act</a> </li>
+                        <!-- <li> <a href="tort.html">Law of Tort</a> </li> -->
+                    </ul>
+                </div></li>
+                <li> <a href="#">Profarma</a> 
+                <div class="submenu">
+                    <ul>
+                        <li> <a href="affidavit.html">Affidavit</a> </li>
+                        <li> <a href="complaint.html">Consumer Complaint</a> </li>
+                        <li> <a href="rti.html">RTI</a> </li>
+                    </ul>
+                </div></li>
+                <li> <a href="article.html">Article on Judgement</a> </li>
+                <li> <a href="members.html">Hounarary Members</a> </li>
+                <li> <a href="intern.html">Internships</a> </li>
+            </ul>
+        </div>
+        <form action="">
+            <h3>Application form for Internship:</h3>
+            <div class="head">
+                <p>Note: All fields are mandatory</p>
+            </div>
+            <fieldset id="f1">
+                <p id="edu">Personal Details:  </p>
+            <!-- <div class="name">
+                <p>Name: <input type="text" name="name" id="naam" required></p>
+            </div> -->
+            <div class="name">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <div class="age">
+                <p>Enter your age: <input type="text" name="age" id="" placeholder="Enter your current age.." required></p>
+            </div>
+            <div class="gender">
+                <legend>Gender: &nbsp; &nbsp;</legend>
+                <p>
+                    Male <input type="radio" name="Gender" id="male" required>
+                    Female <input type="radio" name="Gender" id="female" required>
+                </p>
+            </div>
+        </fieldset>
+        <fieldset id="f2">
+            <p id="edu">Academic Details: </p>
+            <p class="fp">Note: Enter the serial number under whom you want to do an internship.</p>
+            <div class="course">
+                <p>Course: <input type="text" name="course" id="" placeholder="Enter the course.." required></p>
+            </div>
+            <div class="year">
+                <p>Year: <input type="text" name="year" id="" placeholder="Enter your passing year.." required></p>
+            </div>
+            <label id="sr" for="Serial no.">Serial No.</label>
+            <select id="sr" name="country">
+                <option value="australia">1</option>
+                <option value="canada">2</option>
+                <option value="usa">3</option>
+              </select>
+            <div class="college">
+                <p>Enter your college/university name: <input type="text" name="college" id="" placeholder="Enter your college name.." required></p>
+            </div>
+            <div class="prev">
+                <p>Previous Internship (if any otherwise fill NA): <input type="text" name="previous" id="" required></p>
+            </div>
+        <input  type="submit" name="Submit" id="btn">
+        </form>
+</body>
+</html>

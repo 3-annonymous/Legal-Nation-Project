@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: cadetblue;
+}
+#aim{
+    /* text-align: center; */
+    font-size: xxx-large;
+    margin-bottom: 10px;
+    float: left;
+    margin-left: 18px;
+    margin-top: 70px;
+    text-decoration: underline;
+}
+#disc{
+    margin-top: 30px;
+    padding: 15px;
+}
+.container ul{
+    margin-left: 20px;
+    padding: 20px;
+    /* border: 2px solid grey;  */
+    display: inline-block;
+}
+.container ul li{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container p{
+    margin-left: 20px;
+    padding: 20px;
+    font-size: large;
+    /* border: 2px solid grey;  */
+    display: inline-block;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menubar{
+    /* border: 3px solid rgb(186, 194, 193); */
+    border-radius: 8px;
+    display: inline-block;
+    position: fixed;
+    top: 0px;
+    width: 94%;
+    background-color: rgb(186, 194, 193);
+    margin: auto 0px;
+    padding: 11px 45px;
+}
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+    margin: -35px 0px -25px 0px;
+}
+.menubar ul li{
+    width: 120px;
+    margin-right: 120px;
+    padding: 10px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 9px;
+    font-size: large;
+    margin-right: 5px;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+} 
+
+.menubar li a:hover{
+    color: grey;
+    font-size: small;
+}
+.submenu{
+    display: none;
+}
+.submenu ul li a{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px;
+}
+.submenu ul li a:hover{
+    background-color: darkgray;
+    font-size: small;
+}
+.menubar ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.479);
+    margin-top: 15px;
+    margin-left: -20px;
+    padding: 5px 5px;
+}
+.menubar ul li:hover .submenu ul{
+    display: block;
+    margin: 1px;
+    background-color: rgb(223, 208, 208);
+}
+.menubar ul li:hover .submenu ul li{
+       width: 150px;
+       padding: 10px;
+       border-bottom: 1px dotted black;
+       background: transparent;
+       border-radius: 0;
+       text-align: left;
+}
+.menubar ul li:hover .submenu ul li:last-child{
+    border-bottom: none;
+}
+.flexbox{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.flexbox img{
+    width: 13%;
+    border: 8px solid rgb(94, 62, 62);
+    padding: 4px;
+    border-style: groove;
+    border-radius: 50%;
+    /* border-radius: 3px; */
+}
+.flexname{
+ display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.flexname p{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.founders h3{
+    font-size: xx-large;
+    margin-left: 40px;
+}
+#aims{
+    font-size: xxx-large;
+    margin-bottom: 30px;
+    /* float: left; */
+    margin-left: 18px;
+    margin-top: 40px;
+    display: block;
+    text-decoration: underline;
+}
